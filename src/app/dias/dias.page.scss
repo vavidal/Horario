@@ -1,0 +1,51 @@
+.tittle-h1{
+    text-align: center;
+    font-weight: bold;
+    margin: 5% 0 5% 0;
+    color:#00227e;
+  }
+
+ion-content {
+    --background: url("/assets/img/fondo.svg") ;
+    z-index: 1; /* Asegúrate de que el ion-content esté por encima de la imagen de fondo */
+}
+
+.image-container {
+    position: absolute; /* Asegúrate de que la imagen esté en una posición absoluta */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Asegúrate de que la imagen de fondo esté en la parte inferior */
+}
+
+
+  ion-card {
+    display: flex;
+    width: 40%; /* Cada tarjeta toma el 50% del ancho */
+    height: 35%;
+    display: inline-block; /* Coloca las cartas una al lado de la otra */
+    vertical-align: top; /* Alinea las cartas en la parte superior de la fila */
+    font-size: 14px;
+    background: #00227e;
+    
+  }
+
+ion-card-header ion-card-title {
+    font-size: 18px; /* Tamaño de fuente más pequeño para el título */
+    color: #ffd700;
+  }
+  
+  ion-card-content  {
+    font-size: 14px; /* Tamaño de fuente más pequeño para el subtítulo */
+    color: #e0e0e7;
+  }
+
+ion-button {
+    &.custom-back-button {
+      ion-icon[name="arrow-back"] {
+        color: #00227e;
+      }
+    }
+  }
+

@@ -1,0 +1,7 @@
+{
+  "name": "Horario",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

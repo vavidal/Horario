@@ -1,0 +1,22 @@
+<ion-content>
+  <div >
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+  </div>
+
+<ion-content>
+  <div class="image-container"></div>
+  <h1 class="tittle-h1"> Horario </h1>
+  <ion-card size="6" *ngFor="let day of daysOfWeek">
+    <ion-card-header>
+      <ion-card-title>{{ day.name }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      {{ day.content }}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+
+

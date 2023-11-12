@@ -1,0 +1,58 @@
+/* Cambia el color del icono de flecha en el botón personalizado */
+ion-button.custom-back-button ion-icon[name="arrow-back"] {
+    color: #00227e;
+  }
+  
+  .tittle-h1{
+    text-align: center;
+    font-weight: bold;
+    margin: 5% 0 5% 0;
+  }
+  
+  ion-card.custom-card {
+    display: flex;
+    width: 40%;
+    height: 35%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    background: #00227e;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button-card {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  ion-card-header ion-card-title {
+    font-size: 18px;
+    color: #ffd700;
+    text-align: center;
+  }
+  
+  ion-card-header ion-card-subtitle {
+    font-size: 10px;
+    color: #e0e0e7;
+    text-align: center;
+  }
+  
+  /* Estilos adicionales para otros elementos */
+
+  ion-content.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: flex-end; /* Cambia 'center' a 'flex-end' para mover la imagen hacia abajo */
+    width: 80%; /* Establece el ancho deseado para el .image-container */
+    height: auto; /* Establece la altura deseada para el .image-container */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%; /* Agrega un margen superior para separar la tarjeta del elemento superior */
+
+  }
+  
